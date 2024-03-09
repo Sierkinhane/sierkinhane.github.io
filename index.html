@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html>
+  <style type="text/css">
+  p{
+      text-align:justify;  
+  }
+  p i{
+      display:inline-block;
+      width:100%;
+  }
+  </style>
+  <head>
+    <!-- Google analytics tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-STGLQW4BJX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-STGLQW4BJX');
+    </script>
+
+    <!-- Title -->
+    <title>Jinheng XIE - National University of Singapore</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+    <link rel="icon" type="image/png" href="images/coat_of_arms.png">
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+  </head>
+
+  <body id="body">
+
+    <div id="main">
+      <div id="intro">
+        <div id="intro-text">
+          <h1>Jinheng XIE</h1>
+          <p>
+            Hi, there! I'm Jinheng, a PhD student at <a href="https://sites.google.com/view/showlab">Show Lab, National University of Singapore</a>, working with Prof. <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=zh-CN">Mike Shou</a>. My research interests focus on multi-modal computer vision. Previously, I enthusiastically worked on label-efficient learning of scene understanding (object localization and segmentation in un/weakly-supervised manners). Currently, I'm working on exploring multi-modal pre-training and generation like generative pre-training and text-to-image generation. 
+            <br>
+            <a href="https://scholar.google.com/citations?user=smbRMokAAAAJ&hl=en">Google Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/Sierkinhane">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/jinheng-xie-497a29290/?originalSubdomain=sg">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br>
+            sierkinhane at gmail dot com / jinheng at u dot nus dot edu
+            <br><br>
+          </p>
+        </div>
+        <div id="intro-image">
+          <img src="images/selfie_in_paris.jpg">
+        </div>
+      </div>
+
+      <div id="filters" class="button-group">
+        <!-- <button class="button" data-filter="*">Show All</button> -->
+        <button class="button is-checked" data-filter=".highlight">Recent News</button>
+        <button class="button" data-filter=".publication">Research</button>
+        <button class="button" data-filter=".coll">Collaborators</button>
+        <button class="button" data-filter=".awards">Awards</button>
+      </div>
+
+      <div class="grid">
+
+        <!-- Highlights -->
+        <!-- <div class="list-item highlight description" data-category="highlight">
+          Some recent updates from our research:
+        </div> -->
+
+        <!-- Preview Videos -->
+       <!--  <div class="list-item highlight previews" data-category="highlight">
+
+          <a href="https://palm-e.github.io/"><video class="preview1" playsinline="" muted="" autoplay="" loop=""><source src="images/video-palm-e.mp4" type="video/mp4"></video></a>
+          <a href="https://say-can.github.io/"><video class="preview2" playsinline="" muted="" autoplay="" loop=""><source src="images/video-saycan.mp4" type="video/mp4"></video></a>
+          <a href="https://tossingbot.cs.princeton.edu/"><video class="preview3" playsinline="" muted="" autoplay="" loop=""><source src="images/video-tossingbot-crop.mp4" type="video/mp4"></video></a>
+
+        </div> -->
+
+        <div class="list-item highlight description" data-category="highlight", style="line-height: 1.2">
+          <p class="date">2024/02</p>  One paper got accepted to CVPR 2024 <br/>
+          <p class="date">2023/12</p>  One paper got accepted by AAAI 2024 <br/>
+          <p class="date">2023/09</p>  Two papers got accepted to NeurIPS 2023 <br/>
+          <p class="date">2023/07</p>  One paper got accepted to ACM MM 2023 <br/>
+          <p class="date">2023/07</p>  One paper got accepted to ICCV 2023 and One paper got accepted to MICCAI 2023 <br/>
+          <p class="date">2022/11</p>  Served as a reviewer for ICCV 2023 <br/>
+          <p class="date">2022/11</p>  Served as a reviewer for CVPR 2023 <br/>
+          <p class="date">2022/10</p>  Served as a reviewer for IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) <br/>
+          <p class="date">2022/09</p>  Served as a reviewer for International Journal of Computer Vision (IJCV) <br/>
+          <p class="date">2022/09</p>  Received China National Scholarship <br/>
+          <p class="date">2022/08</p>  One paper got accepted to ECCV 2022 Workshop <br/>
+          <p class="date">2022/08</p>  Ranked 4th in Out-of-Distribution Visual Recognition ECCV'2022 NICO Challenge <br/>
+          <p class="date">2022/06</p>  One paper got accepted to MICCAI 2022 <br/>
+          <p class="date">2022/03</p>  Three papers got accepted to CVPR 2022 <br/>
+          <p class="date">2021/09</p>  Received China National Scholarship <br/>
+          <p class="date">2021/07</p>  One paper got accepted to ICCV 2021 <br/>
+          
+        </div>
+        
+
+        <!-- Publications -->
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="">Tune-An-Ellipse: CLIP Has Potential to Find What You Want</a></h3>
+          <p>
+            Jinheng Xie, Songhe Deng, Bing Li, Haozhe Liu, Yawen Huang, Yefeng Zheng, Jürgen Schmidhuber, Bernard Ghanem, Linlin Shen, Mike Zheng Shou
+            <br>
+            <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024 </i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+          </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2312.17492">HEAP: Unsupervised Object Discovery and Localization with Contrastive Grouping</a></h3>
+          <p>
+            Xin Zhang, Jinheng Xie, Yuan Yuan, Michael Bi Mi, Robby T. Tan
+            <br>
+            <i>Thirty-eighth Annual AAAI Conference on Artificial Intelligence (AAAI), 2024</i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+              <a href="https://arxiv.org/abs/2312.17492">PDF</a>&nbsp;&nbsp;
+          </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/df4f6e43446b1ee29c5a33d32c279f83-Paper-Conference.pdf">Learning Visual Prior via Generative Pre-Training</a></h3>
+          <p>
+            Jinheng Xie, Kai Ye, Yudong Li, Yuexiang Li, Kevin Qinghong Lin, Yefeng Zheng, Linlin Shen, Mike Zheng Shou
+            <br>
+            <i>Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS), 2023</i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+              <a href="https://sierkinhane.github.io/visor-gpt/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/df4f6e43446b1ee29c5a33d32c279f83-Paper-Conference.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/Sierkinhane/VisorGPT">Code</a>
+          </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2306.07716">Dynamically Masked Discriminator for GANs</a></h3>
+          <p>
+            Wentian Zhang, Haozhe Liu, Bing Li, Jinheng Xie, Yawen Huang, Yuexiang Li, Yefeng Zheng, Bernard Ghanem
+            <br>
+            <i>Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS), 2023</i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+              <a href="https://arxiv.org/abs/2306.07716">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/WentianZhang-ML/DMD">Code</a>
+          </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2307.10816">BoxDiff: Text-to-Image Synthesis with Training-Free Box-Constrained Diffusion</a></h3>
+          <p>
+            Jinheng Xie, Yuexiang Li, Yawen Huang, Haozhe Liu, Wentian Zhang, Yefeng Zheng, Mike Zheng Shou
+            <br>
+            <i>IEEE/CVF International Conference on Computer Vision (ICCV), 2023</i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+              <a href="https://arxiv.org/abs/2307.10816">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/Sierkinhane/BoxDiff">Code</a>
+          </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2210.14783">Decoupled Mixup for Out-of-Distribution Visual Recognition</a></h3>
+          <p>
+            Haozhe Liu<sup>*</sup>, Wentian Zhang<sup>*</sup>, Jinheng Xie<sup>*</sup>, Haoqian Wu, Bing Li, Ziqi Zhang, Yuexiang Li, Yawen Huang, Bernard Ghanem, Yefeng Zheng
+            <br>
+            <i>European Conference on Computer Vision Workshop (ECCVW), 2022</i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+              <a href="https://arxiv.org/abs/2210.14783">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/HaozheLiu-ST/NICOChallenge-OOD-Classification">Code</a>
+          </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2209.01988">Point Beyond Class: A Benchmark for Weakly Semi-Supervised Abnormality Localization in Chest X-Rays</a></h3>
+          <p>
+            Haoqin Ji, Haozhe Liu, Yuexiang Li, Jinheng Xie, Nanjun He, Yawen Huang, Dong Wei, Xinrong Chen, Linlin Shen, Yefeng Zheng
+            <br>
+            <i>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022</i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+              <a href="https://arxiv.org/abs/2209.01988">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/HaozheLiu-ST/Point-Beyond-Class">Code</a>
+          </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2203.02668">CLIMS: Cross Language Image Matching for Weakly Supervised Semantic Segmentation</a></h3>
+          <p>
+            Jinheng Xie, Xianxu Hou, Kai Ye, Linlin Shen
+            <br>
+            <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+              <a href="https://arxiv.org/abs/2203.02668">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/CVI-SZU/CLIMS">Code</a>
+          </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2203.13505">C2AM: Contrastive Learning of Class-agnostic Activation Map for Weakly Supervised Object Localization and Semantic Segmentation</a></h3>
+          <p>
+            Jinheng Xie, Jianfeng Xiang, Junliang Chen, Xianxu Hou, Xiaodong Zhao, Linlin Shen
+            <br>
+            <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+              <a href="https://arxiv.org/abs/2203.13505">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/CVI-SZU/CCAM">Code</a>
+          </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2203.05151">Frequency-driven Imperceptible Adversarial Attack on Semantic Similarity</a></h3>
+          <p>
+            Cheng Luo, Qinliang Lin, Weicheng Xie, Bizhu Wu, Jinheng Xie, Linlin Shen
+            <br>
+            <i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022</i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+              <a href="https://arxiv.org/abs/2203.05151">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/LinQinLiang/SSAH-adversarial-attack">Code</a><br>
+          </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <!-- <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/visorgpt_title.png" alt="" /></a> -->
+          <div class="project-description">
+          <h3><a href="https://arxiv.org/abs/2110.05741">Online Refinement of Low-level Feature Based Activation Map for Weakly Supervised Object Localization</a></h3>
+          <p>
+            Jinheng Xie, Cheng Luo, Xiangping Zhu, Ziqi Jin, Weizeng Lu, Linlin Shen
+            <br>
+            <i>IEEE/CVF International Conference on Computer Vision (ICCV), 2021</i><br>
+            <!-- <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br> -->
+              <a href="https://arxiv.org/abs/2110.05741">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+              <a href="https://github.com/Sierkinhane/ORNet">Code</a>
+          </p>
+          </div>
+        </div>
+
+        <!-- Awards -->
+        <div class="list-item awards" data-category="awards", style="line-height: 1.2;">
+          <p class="date">2023</p> Show Lab Annual Award <br/>
+          <p class="date">2023</p> Outstanding Graduate Award (Rate < 5%) <br/>
+          <p class="date">2023</p> China National Scholarship (Rate <= 0.02%) <br/>
+          <p class="date">2021</p> Excellent Contributor Award (Ascend All Wisdom Plan, HUAWEI) <br/>
+          <p class="date">2021</p> Excellent Academic Scholarship, First Class <br/>
+        </div>
+      
+        <!-- Collaborators -->
+        <div class="list-item coll" data-category="coll", style="line-height: 2; stext-align: center;">
+          <a href="https://www.tencent.com/en-us/"><img src='images/tencent.png' width="250"/><a/><br/>
+          <a href="https://open.youtu.qq.com/#/open"><img src='images/tencent_youtulab.png' width="250"/><a/><br/>
+            <a href="https://cemse.kaust.edu.sa/ai"><img src='images/kaust_icon.png' width="250"/><a/><br/>
+        </div>
+
+
+      </div>
+    </div>
+
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=250&t=n&d=lADcEbQ2Hou9upTL6suakF_JIL8FYgA4ipDfphDjFr0'></script>
+
+    <script>
+
+      // Isotope grid.
+      var $grid = $('.grid').isotope({
+        itemSelector: '.list-item',
+        layoutMode: 'fitRows',
+        transitionDuration: 0,
+        stagger: 10,
+        initLayout: false,
+        getSortData: {
+          name: '.name',
+          symbol: '.symbol',
+          number: '.number parseInt',
+          category: '[data-category]',
+          weight: function( itemElem ) {
+            var weight = $( itemElem ).find('.weight').text();
+            return parseFloat( weight.replace( /[\(\)]/g, '') );
+          }
+        }
+      });
+
+      // Bind filter button click.
+      $('#filters').on( 'click', 'button', function() {
+        var filterValue = $( this ).attr('data-filter');
+        localStorage.setItem('filterValue', filterValue);
+        $grid.isotope({ filter: filterValue });
+      });
+
+      // Change is-checked class on buttons.
+      $('.button-group').each( function( i, buttonGroup ) {
+        var $buttonGroup = $( buttonGroup );
+        $buttonGroup.on( 'click', 'button', function() {
+          $buttonGroup.find('.is-checked').removeClass('is-checked');
+          $( this ).addClass('is-checked');
+        });
+      });
+
+      function update_isotope() {
+        // Retrieve cached button click.
+        var defaultFilterValue = localStorage.getItem('filterValue');
+        if (defaultFilterValue == null) {
+          defaultFilterValue = ".highlight"
+        }
+        $grid.isotope({ filter: defaultFilterValue });
+        var buttons = document.getElementsByClassName("button");
+        for (var currButton of buttons) {
+          if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+            currButton.classList.add('is-checked');
+          } else {
+            currButton.classList.remove('is-checked');
+          }
+        }
+      }
+
+      function toggle_bio() {
+        var x = document.getElementById("more-bio");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function toggle_highlights() {
+        var x = document.getElementById("main-highlights");
+        var y = document.getElementById("more-highlights");
+        var b = document.getElementById("toggle_highlights_button")
+        if (y.style.display === "none") {
+          x.style.display = "none";
+          y.style.display = "block";
+          b.innerHTML = "Show less"
+          update_isotope();
+        } else {
+          x.style.display = "block";
+          y.style.display = "none";
+          b.innerHTML = "Show more"
+          update_isotope();
+        }
+      }
+
+      update_isotope();
+
+    </script>
+  </body>
+</html>
