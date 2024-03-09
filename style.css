@@ -192,6 +192,12 @@ h2 {
   color: #a0a8b0;
 }
 
+.list-item p.year {
+  display: inline-block;
+  width: 2.5em;
+  color: #a0a8b0;
+}
+
 /**************************************************/
 /* Gallery of 3 preview videos. */
 
@@ -201,6 +207,7 @@ h2 {
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   height: 12.5em;
+  align-items: center;
 }
 
 .previews video {
