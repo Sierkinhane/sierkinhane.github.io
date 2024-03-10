@@ -299,17 +299,18 @@
         <div class="list-item musics" data-category="musics", style="line-height: 2;">
          
           <!-- YouTube 视频的容器 -->
-          <div id="player"></div>
+          <div id="player1"></div>
+          <div id="player2"></div>
+          <div id="player3"></div>
 
           <!-- 引入 YouTube iframe API -->
           <script src="https://www.youtube.com/iframe_api"></script>
 
-          <!-- 初始化嵌入式播放器 -->
           <script>
-            // 嵌入式播放器的配置
-            var player;
+            // 初始化嵌入式播放器
             function onYouTubeIframeAPIReady() {
-              player = new YT.Player('player', {
+              // 初始化第一个播放器
+              new YT.Player('player1', {
                 videoId: 'ORN1rFN7fgE',
                 width: 865,
                 height: 486.5,
@@ -320,26 +321,10 @@
                   // 可以根据需要添加其他事件回调函数
                 }
               });
-            }
-          </script>
 
-        </div>
-
-        <div class="list-item musics" data-category="musics", style="line-height: 2;">
-         
-          <!-- YouTube 视频的容器 -->
-          <div id="player"></div>
-
-          <!-- 引入 YouTube iframe API -->
-          <script src="https://www.youtube.com/iframe_api"></script>
-
-          <!-- 初始化嵌入式播放器 -->
-          <script>
-            // 嵌入式播放器的配置
-            var player;
-            function onYouTubeIframeAPIReady() {
-              player = new YT.Player('player', {
-                videoId: 'HVC57LA6D2s',
+              // 初始化第二个播放器
+              new YT.Player('player2', {
+                videoId: 'Psr28JFrx_s',
                 width: 865,
                 height: 486.5,
                 playerVars: {
@@ -349,26 +334,10 @@
                   // 可以根据需要添加其他事件回调函数
                 }
               });
-            }
-          </script>
 
-        </div>
-
-        <div class="list-item musics" data-category="musics", style="line-height: 2;">
-         
-          <!-- YouTube 视频的容器 -->
-          <div id="player"></div>
-
-          <!-- 引入 YouTube iframe API -->
-          <script src="https://www.youtube.com/iframe_api"></script>
-
-          <!-- 初始化嵌入式播放器 -->
-          <script>
-            // 嵌入式播放器的配置
-            var player;
-            function onYouTubeIframeAPIReady() {
-              player = new YT.Player('player', {
-                videoId: 'Psr28JFrx_s',
+              // 初始化第二个播放器
+              new YT.Player('player3', {
+                videoId: 'HVC57LA6D2s',
                 width: 865,
                 height: 486.5,
                 playerVars: {
