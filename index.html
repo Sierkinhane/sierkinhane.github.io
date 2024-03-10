@@ -291,7 +291,32 @@
           <a href="https://www.tencent.com/en-us/"><img src='images/tencent.png' width="250"/><a/><br/>
           <a href="https://open.youtu.qq.com/#/open"><img src='images/tencent_youtulab.png' width="250"/><a/><br/>
           <a href="https://cemse.kaust.edu.sa/ai"><img src='images/kaust_icon.png' width="250"/><a/><br/>
-          <video src="https://www.youtube.com/watch?v=ORN1rFN7fgE" controls></video>
+          
+          <!-- YouTube 视频的容器 -->
+          <div id="player"></div>
+
+          <!-- 引入 YouTube iframe API -->
+          <script src="https://www.youtube.com/iframe_api"></script>
+
+          <!-- 初始化嵌入式播放器 -->
+          <script>
+            // 嵌入式播放器的配置
+            var player;
+            function onYouTubeIframeAPIReady() {
+              player = new YT.Player('player', {
+                videoId: 'ORN1rFN7fgE',
+                width: 640,
+                height: 360,
+                playerVars: {
+                  // 可以根据需要自定义播放器参数
+                },
+                events: {
+                  // 可以根据需要添加其他事件回调函数
+                }
+              });
+            }
+          </script>
+
         </div>
 
 
