@@ -53,6 +53,22 @@ table {
   color: #150c21;
 }
 
+#banner {
+  width: 100%;
+  height: 180px;   /* 高度你可以调，比如 160~220 */
+  border-radius: 12px;
+
+  background-image: url("images/central park.jpg"); /* 👈 换成你的图 */
+
+   /* 👇 核心：裁剪控制 */
+  background-size: 120%;        /* 放大一点，增强裁剪 */
+  background-position: 50% 30%; /* 向上偏，聚焦主体 */
+
+  background-repeat: no-repeat;
+
+  margin-bottom: 20px;
+}
+
 #main {
   width: 54em;
   margin: 0px auto;
