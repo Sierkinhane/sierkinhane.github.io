@@ -8,6 +8,21 @@
       display:inline-block;
       width:100%;
   }
+  @keyframes pulseText {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.12); }
+    100% { transform: scale(1); }
+  }
+
+  .pulse-text {
+    font-weight: 450;
+    font-size: 18px;
+    color: red;
+    margin: 0;
+    display: inline-block;  
+    animation: pulseText 1.2s ease-in-out infinite;
+    transform-origin: center;
+  }
   </style>
   <head>
     <!-- Google analytics tag (gtag.js) -->
