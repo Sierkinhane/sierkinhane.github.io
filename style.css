@@ -357,6 +357,20 @@ h3 a:hover {
   float: left;
 }
 
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+.pulse-text {
+  font-weight: 450;
+  font-size: 18px;
+  color: red;
+  margin: 0;
+  display: inline-block;
+  animation: pulse 2s infinite ease-in-out;
+}
 
 /**************************************************/
 /* Subtle footer at the bottom of the page. */
